@@ -1,11 +1,11 @@
-About r-shinymobile
-===================
+About r-shinymobile-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinymobile-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/RinteRface/shinyMobile, https://rinterface.github.io/shinyMobile/
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinymobile-feedstock/blob/main/LICENSE.txt)
 
 Summary: Develop outstanding 'shiny' apps for 'iOS', 'Android', desktop as well as beautiful 'shiny' gadgets. 'shinyMobile' is built on top of the latest 'Framework7' template <https://framework7.io>. Discover 14 new input widgets (sliders, vertical sliders, stepper, grouped action buttons, toggles, picker, smart select, ...), 2 themes (light and dark), 12 new widgets (expandable cards, badges, chips, timelines, gauges, progress bars, ...) combined with the power of server-side notifications such as alerts, modals, toasts, action sheets, sheets (and more) as well as 3 layouts (single, tabs and split).
 
