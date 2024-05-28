@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinyMobile_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinyMobile/shinyMobile_{{ version }}.tar.gz
-  sha256: 7f0cee3fd447b03dc16c0bc18c8cc3a2858740d59ef02ce75bf5ea6536c35bdb
+  sha256: b616b5f48cf9a550de70cc6f9acd8387ca9f9a5f03995dd1ee4e389c0946c758
 
 build:
   merge_build_host: true  # [win]
