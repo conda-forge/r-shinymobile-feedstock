@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinyMobile_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinyMobile/shinyMobile_{{ version }}.tar.gz
-  sha256: b616b5f48cf9a550de70cc6f9acd8387ca9f9a5f03995dd1ee4e389c0946c758
+  sha256: ac8f5d54576bd4feec7622e4fa00712ce75f76081050ee3f7e22120b46db556f
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
